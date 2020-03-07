@@ -1,4 +1,4 @@
-[powerlevel10k](https://github.com/romkatv/powerlevel10k) xxh plugin.
+[powerlevel10k](https://github.com/romkatv/powerlevel10k) xxh plugin for [xxh-shell-zsh](https://github.com/xxh/xxh-shell-zsh).
 
 ## Install
 ```
