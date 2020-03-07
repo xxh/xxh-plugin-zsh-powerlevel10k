@@ -4,7 +4,7 @@
 ```
 cd ~/.xxh/xxh/plugins \
     && git clone --depth 1 https://github.com/xxh/xxh-plugin-zsh-powerlevel10k \
-    && xonsh xxh-plugin-zsh-powerlevel10k/build.xsh
+    && ./xxh-plugin-zsh-powerlevel10k/build.xsh
     
 # connect once with updating host
 xxh yourhost +if
