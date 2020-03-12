@@ -7,5 +7,5 @@ cd ~/.xxh/xxh/plugins \
     && ./xxh-plugin-zsh-powerlevel10k/build.xsh
     
 # connect once with updating host
-xxh yourhost +if +s xxh-shell-zsh
+xxh yourhost +if +s zsh
 ```
