@@ -1,5 +1,13 @@
 #!/usr/bin/env xonsh
 
+import sys, argparse
+
+parser = argparse.ArgumentParser(description='build')
+parser.add_argument('-q', '--quiet', action='store_true', help=f"Quiet mode")
+opt = parser.parse_args()
+
+arg_q = ['-q'] if opt.quiet else []
+
 plugin_path = pf"{__file__}".absolute().parent
 plugin_build_path = plugin_path / 'build'
 
@@ -11,5 +19,4 @@ if pluginrc_file.exists():
 
 home_dir = plugin_build_path / 'powerlevel10k'
 if not home_dir.exists():
-    print('Git clone')
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git @(home_dir)
+    git clone @(arg_q) --depth=1 https://github.com/romkatv/powerlevel10k.git @(home_dir)
