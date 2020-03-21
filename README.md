@@ -3,7 +3,7 @@
 ## Install
 Install from xxh repo:
 ```
-xxhp i xxh-plugin-zsh-powerlevel10k
+xxh +I xxh-plugin-zsh-powerlevel10k
 ```
 Install from any repo:
 ```
