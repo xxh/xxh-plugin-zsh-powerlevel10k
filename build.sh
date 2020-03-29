@@ -32,7 +32,7 @@ cd $build_dir
 if [ -x "$(command -v git)" ]; then
   git clone $arg_q --depth=1 $url $home_dir
 else
-  echo Install git
+  echo You should install git: https://duckduckgo.com/?q=install+git+on+linux
 fi
 
 tar -xzf $tarname
