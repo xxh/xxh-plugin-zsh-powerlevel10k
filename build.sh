@@ -21,7 +21,6 @@ done
 
 
 url='https://github.com/romkatv/powerlevel10k.git'
-tarname=`basename $url`
 home_dir=$build_dir/powerlevel10k
 cd $build_dir
 
@@ -34,6 +33,3 @@ if [ -x "$(command -v git)" ]; then
 else
   echo You should install git: https://duckduckgo.com/?q=install+git+on+linux
 fi
-
-tar -xzf $tarname
-rm $tarname
